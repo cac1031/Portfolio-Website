@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio Website</title>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="icon" type="image/png" href="assets/sakura2.png">
+</head>
+
+<body>
+  <header>
+		<div class="home">HOME</div>
+    <nav>
+			<div class="navbar-links"> 
+				<a href="#about">About</a>
+				<a href="#projects">Projects</a>
+				<a href="#contact">Contact</a>
+			</div>
+      <div class="toggle-button"></div>
+    </nav>
+  </header>
+
+  <section id="home">
+    <img src="assets/clouds1.png" id="cloud1" class="clouds"/>
+    <img src="assets/clouds1.png" id="cloud2" class="clouds"/>
+    <img src="assets/clouds2.png" id="cloud3" class="clouds"/>
+    <img src="assets/clouds2.png" id="cloud4" class="clouds"/>
+    <img src="assets/clouds2.png" id="cloud5" class="clouds"/>
+    <img src="assets/clouds2.png" id="cloud6" class="clouds"/>
+    <img src="assets/clouds2.png" id="cloud7" class="clouds"/>
+    <img src="assets/clouds1.png" id="cloud8" class="clouds"/>
+    <img src="assets/clouds1.png" id="cloud9" class="clouds"/>
+    <img src="assets/clouds2.png" id="cloud10" class="clouds"/>
+    <img src="assets/clouds2.png" id="cloud11" class="clouds"/>
+    <img src="assets/sakura-left.svg" id="sakura-left"/>
+    <img src="assets/sakura-left.svg" id="sakura-right"/>
+    <h1>Calley Chai</h1>
+    <br>
+    <h3>2nd Year Computer Science Student</h3>
+  </section>
+
+  <section id="about">
+    <h2 class="hidden">About</h2>
+    <div class="about-container">
+      <div class="about-item"><p>Hi there, I am a penultimate student at UNSW. I am currently interested in front-end web development which I have been self-learning in my spare time. Other than that, I like to exercise, draw and learn Japanese. I am an also avid collector of washi tape!</p></div>
+      <div class="about-item"><img id="profile" src="assets/headshot.jpg" alt="profile photo"></div>
+      <div class="about-item about-img hidden"><img class="icon-invert" src="assets/tape.png" alt="washi tape"></div>
+      <div class="about-item about-img hidden"><img class="icon-invert" src="assets/dumbbell.png" alt="dumbbell"></div>
+      <div class="about-item about-img hidden"><img class="icon-invert" src="assets/drawing.png" alt="pencil"></div>
+      <div class="about-item about-img hidden"><img class="icon-invert" src="assets/kana.png" alt="hiragana fu"></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="hidden">Projects</h2>
+    <div class="project-container">
+      <div class="project-item">
+        <img src="assets/pokedex.png" alt="pokedex project in C">
+        <div class="caption"><p>A simple command line game that uses a singly linked list and bitwise operations that allows users to add Pokemons into a Pokedex. This was made for the purpose of the Continuers to C workshop for Comp Club's 2023 Summer School.</p></div>
+        </div>
+      <div class="project-item">
+        <img src="assets/website.png" alt="this website's wireframe">
+        <div class="caption"><p>My attempt at making a portfolio website using HTML, CSS and a bit of vanilla JS. Before coding, I used Figma to create the design. Implementing it proved to be challenging as I tried to make it responsive. Nevertheless, this was a valuable learning experience. Fun fact, I drew the flowers located at the top.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="hidden">Contact</h2>
+    <div class="contact-container">
+
+      <div class="contact-item hidden">
+        <a href="https://www.facebook.com/calleyy.chai/" target="_blank">
+          <img class="icon-invert" src="assets/facebook.png" alt="white fb logo"/>
+        </a>
+      </div>
+
+      <div class="contact-item hidden">
+        <a>
+          <img class="icon-invert" src="assets/discord.png" alt="white discord logo"/>
+        </a>
+      </div>
+
+      <div class="contact-item hidden">
+        <a href="https://github.com/cac1031/" target="_blank">
+          <img class="icon-invert" src="assets/github.png" alt="white github logo"/>
+        </a>
+      </div>
+
+      <div class="contact-item hidden">
+        <a href="https://www.linkedin.com/in/calley-c-8467b7252/" target="_blank">
+          <img class="icon-invert" src="assets/linkedin.png" alt="white linkedin logo"/>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <small>Copyright &copy; 2023 Calley Chai</small>
+  </footer>
+
+  <script defer src="script.js"></script>
+</body>
+</html>
