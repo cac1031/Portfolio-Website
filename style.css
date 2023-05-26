@@ -526,7 +526,7 @@ header {
   padding: 1rem;
   aspect-ratio: 1;
   border-radius: 25%;
-  background-color: var(--colour-bg2);
+  background-color: var(--colour-bg3);
   position: relative;
   display: flex;
   justify-content: center;
